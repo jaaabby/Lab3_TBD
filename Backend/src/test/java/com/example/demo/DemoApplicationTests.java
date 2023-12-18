@@ -1,10 +1,10 @@
-package com.example.lab3_tbd;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Lab3TbdApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
