@@ -29,6 +29,12 @@ Para ejecutar correctamente todo el proyecto, además de los archivos del reposi
 3. https://www.mongodb.com/try/download/compass link para instalar MongoDB Compass
 4. https://www.jetbrains.com/idea/ link para instalar Intellij IDEA
 5. Al abrir IntelliJ IDEA Ultimate, abrir un nuevo proyecto y seleccionar la carpeta Backend. Debemos esperar a que el proyecto se configure y se instalen los plugins necesarios.
+6. Dentro de la carpeta src/main/resources escribir la siguiente configuración en el archivo llamado application.properties. Dentro del archivo, se debe incluir lo siguiente:
+   * spring.data.mongodb.host=localhost
+   * spring.data.mongodb.port=27017
+   * spring.data.mongodb.database=TBD
+7. https://www.postman.com/ link para instalar la última versión de Postman.
+Con esto ya estamos listos con todo lo que es la instalación del proyecto y se puede continuar a las instrucciones de uso.
 
 # Instrucciones de uso:
 Carga de datos: Utilizar el archivo Dump llamado "import.json" desde MongoDB Compass:
